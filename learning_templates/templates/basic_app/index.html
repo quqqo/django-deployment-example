@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% load my_extras %}
+  {% block body_block %}
+    <h1>INDEKSISSÄ!</h1>
+    <h1>{{ text|cutter:'hell' }}</h1>
+    <h1>{{ number|add:"99" }}</h1>
+    <h2>Tässä näkyy Nandariinin rondoliini!!! JEEEE!! KAnsa hurraa!</h2>
+  {% endblock %}
