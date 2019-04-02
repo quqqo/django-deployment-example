@@ -25,7 +25,9 @@ SECRET_KEY = '^4hnk7=kkqhs!guuwth8rt4-=1v&u3yoyh%kh&kinnwhu*@u(*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'pyytoni.pythonanywhere.com',
+]
 
 
 # Application definition
